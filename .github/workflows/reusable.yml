@@ -27,4 +27,4 @@ jobs:
               run: echo "Deploying & uploading..."
             - name: Set result output
               id: set-result
-              run: echo "step-result=scuccess" >> $GITHUB_OUTPUT
+              run: echo "step-result=success" >> $GITHUB_OUTPUT
